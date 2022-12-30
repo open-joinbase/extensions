@@ -3,4 +3,4 @@ project(testudm VERSION 0.1.0)
 
 set(CMAKE_BUILD_TYPE Release)
 
-add_library(testudm SHARED main.c)
+add_library(udm_test SHARED lib.c)
